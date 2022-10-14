@@ -14,8 +14,8 @@ public class App {
             if (number <= 0) {              // 1. Zahl <= 0
                 System.out.println("No number entered.");
                 return;
-            }
-            for (int i = 2; i >= 0; i++) {
+            } else maximum = number;
+            for (int i = 2; i >= 2; i++) {
                 System.out.print("Number " + i + ": ");
                 number = scanner.nextFloat();
                 if (number > maximum) {
